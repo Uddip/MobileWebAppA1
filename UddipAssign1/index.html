@@ -22,13 +22,13 @@ Uddip Amin
       <input placeholder="John Doe" type="text" name="name" value="" required>
       <br>
       <label for="email">Email: </label>
-      <input pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" placeholder="JohnDoe@gmail.com" type="email" name="email" value="" required>
+      <input pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="Email format: username@domain.com" placeholder="JohnDoe@gmail.com" type="email" name="email" value="" required>
       <br>
       <label for="width">Width of Room(m): </label>
-      <input placeholder="100" type="text" name="width" value="" required>
+      <input pattern="^(?=.*[1-9])\d*(?:\.\d{1,2})?$" title="Only numbers greater than 0 and 2 decimal places max." placeholder="100.00" type="text" name="width" value="" required>
       <br>
       <label for="length">Length of Room(m): </label>
-      <input placeholder="100" type="text" name="length" value="" required>
+      <input pattern="^(?=.*[1-9])\d*(?:\.\d{1,2})?$" title="Only numbers greater than 0 and 2 decimal places max." placeholder="100.00" type="text" name="length" value="" required>
       <br>
       <label for="colour">Colour of Room: </label>
       <select class="" name="colour">
