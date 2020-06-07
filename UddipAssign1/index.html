@@ -20,19 +20,19 @@ Uddip Amin
 
     <form class="" action="index.html" method="post">
       <label for="name">Name: </label>
-      <input placeholder="John Doe" type="text" name="name" value="" required>
+      <input placeholder="John Doe" type="text" name="name" id="name" value="" required>
       <br>
       <label for="email">Email: </label>
-      <input pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="Email format: username@domain.com" placeholder="JohnDoe@gmail.com" type="email" name="email" value="" required>
+      <input pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" title="Email format: username@domain.com" placeholder="JohnDoe@gmail.com" type="email" name="email" id="email" value="" required>
       <br>
       <label for="width">Width of Room(m): </label>
-      <input pattern="^(?=.*[1-9])\d*(?:\.\d{1,2})?$" title="Only numbers greater than 0 and 2 decimal places max." placeholder="100.00" type="text" name="width" value="" required>
+      <input pattern="^(?=.*[1-9])\d*(?:\.\d{1,2})?$" title="Only numbers greater than 0 and 2 decimal places max." placeholder="100.00" type="text" name="width" id="width" value="" required>
       <br>
       <label for="length">Length of Room(m): </label>
-      <input pattern="^(?=.*[1-9])\d*(?:\.\d{1,2})?$" title="Only numbers greater than 0 and 2 decimal places max." placeholder="100.00" type="text" name="length" value="" required>
+      <input pattern="^(?=.*[1-9])\d*(?:\.\d{1,2})?$" title="Only numbers greater than 0 and 2 decimal places max." placeholder="100.00" type="text" name="length" id="length" value="" required>
       <br>
       <label for="colour">Colour of Room: </label>
-      <select class="" name="colour">
+      <select class="" name="colour" id="colour">
         <option value="red" >Red</option>
         <option value="blue">Blue</option>
         <option value="green">Green</option>
@@ -42,13 +42,13 @@ Uddip Amin
       <br>
       <label for="paint">Type or Paint: </label>
       <br>
-      <input type="radio" name="paint" value="standard" required>
+      <input type="radio" name="paint" id="paint" value="standard" required>
       Standard ($24.99 per can)
       <br>
-      <input type="radio" name="paint" value="premium" required>
+      <input type="radio" name="paint" id="paint" value="premium" required>
       Premium ($39.99 per can)
       <br>
-      <button type="submit" name="quote">Create Quote</button>
+      <button type="submit" id="quote">Create Quote</button>
     </form>
 
     <footer>Uddip Amin, 991518202</footer>
