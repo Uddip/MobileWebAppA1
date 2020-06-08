@@ -2,16 +2,47 @@
 Uddip Amin
 991518202
 */
+header {
+  text-align: center;
+  margin-top: 25px;
+  color: #303030;
+}
+
+form {
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 75%;
+}
+
 img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
 
+footer {
+  text-align: center;
+  color: #4f4f4f
+}
+
+.radio {
+  margin-left: 35px;
+}
+
+
 .colour{
   border: solid 2px black;
-  border-radius: 25px;
+  border-radius: 5px;
   padding: 20px;
   width: 50px;
   height: 50px;
+}
+
+.contactInformation {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.room {
+  margin-left: 25px;
 }
